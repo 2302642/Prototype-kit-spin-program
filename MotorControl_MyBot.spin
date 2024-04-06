@@ -20,7 +20,7 @@ CON
   M4_zero = 1520}                                                               '1920 = Full Forward
 
   'Macros
-  SPD = 50                                                                      'Speed setting from 0% to 100%
+  SPD = 30                                                                      'Speed setting from 0% to 100%
   DST = 10000                                                                   'Distance in milliseconds
   wtime = 2000
   'for servo

@@ -36,19 +36,33 @@ CON
         comParty = $17
         comStopAll = $AA}
 
-        comStart = $7A
-        comStopAll = $35
-        comForward = $38
-        comReverse = $32
-        comTurnRight = $2B
-        comTurnLeft = $0D
-        comMoveRight = $36
-        comMoveLeft = $34
-        comDigonal_UR = $39
-        comDigonal_UL = $37
-        comDigonal_DR = $33
-        comDigonal_DL = $31
+        comStart = $7A                                  '(z key)
+        comStopAll = $35                                '(5 key)
+        comForward = $38                                '(8 key)
+        comReverse = $32                                '(2 key)
+        comTurnRight = $2B                              '(+ key)
+        comTurnLeft = $0D                               '(enter key)
+        comMoveRight = $36                              '(6 key)
+        comMoveLeft = $34                               '(4 key)
+        comDigonal_UR = $39                             '(9 key)
+        comDigonal_UL = $37                             '(7 key)
+        comDigonal_DR = $33                             '(3 key)
+        comDigonal_DL = $31                             '(1 key)
 
+        ' speed changer
+        comSpeedbase = $6C                              'set for default speed
+        comSpeed10   = $71                              '(q key)
+        comSpeed20   = $77                              '(w key)
+        comSpeed30   = $65                              '(e key)
+        comSpeed40   = $72                              '(r key)
+        comSpeed50   = $74                              '(t key)
+        comSpeed60   = $79                              '(y key)
+        comSpeed70   = $75                              '(u key)
+        comSpeed80   = $69                              '(i key)
+        comSpeed90   = $6F                              '(o key)
+        comSpeedMax   = $70                             '(p key)
+
+        'unused movements
         comArkRight_Forward = $0B
         comArkRight_Reverse = $0C
         comArkLeft_Forward = $0D
@@ -66,18 +80,6 @@ CON
 
         comTest = $17
 
-        ' speed changer
-        comSpeedbase = $6C
-        comSpeed10   = $71
-        comSpeed20   = $77
-        comSpeed30   = $65
-        comSpeed40   = $72
-        comSpeed50   = $74
-        comSpeed60   = $79
-        comSpeed70   = $75
-        comSpeed80   = $69
-        comSpeed90   = $6F
-        comSpeedMax   = $70
 
 
 VAR
